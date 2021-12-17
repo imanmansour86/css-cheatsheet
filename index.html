@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+
+    <header>
+        <h1>CSS CheatSheet</h1>
+        <p>Cascading Style Sheets is a style sheet language used for describing the presentation of a document written in a markup language such as HTML.</p>
+    </header>
+
+    <main>
+        <section>
+            <h2>Absolute positioning</h2>
+            <img src="./assets/Absolute positioning.png" alt="Absolute positioning">
+            <pre>
+                position:absolute;
+                top:20px;
+                right:20px
+            </pre>
+            <p>If you want control over where an element lives on our website at all times, absolute positioning is the key to making this happen.</p>
+        </section>
+
+        <section>
+            <h2>Content</h2>
+            <img src="./assets/content.png" alt="content">
+            <pre> 
+                position:absolute;
+                top:20px;
+                right:20px
+            </pre>
+            <p>A div (or any other element) can be centered by adding the block property to it, and then using auto margins</p>
+        </section>
+
+        <section>
+            <h2>Vertical alignment</h2>
+            <img src="./assets/vertical alignment.png" alt="vertical alignment">
+            <pre>.nav li{
+                line-height:50px;
+                height:50px;
+            }</pre>
+            <p>You will use this in a CSS navigation menu, I can almost guarantee that. The key is to make the height of the menu and the line-height of the text the same.</p>
+        </section>
+
+        <section>
+        <h2>Hover effects</h2>
+        <img src="./assets/hover.png">
+        <pre>.entry h2{
+            font-size:36px;
+            color:#000;
+            font-weight:800;
+        }
+        
+        .entry h2:hover{
+            color:#f00;
+        }</pre>
+        <p>This is used for buttons, text links, bock sections of your site, icons, and more.</p>
+        </section>
+
+        <section>
+            <h2>Transition</h2>
+            <img src="assets/transition.png">
+            <pre>.entry h2:hover{
+                color:#f00;
+                transition: all 0.3s ease;
+            }</pre>
+            <p>For hover effects, like with menus or on images in your website, you don’t want colors snapping too quickly to the end result. </p>
+            </section>
+
+    </main>
+    <footer>
+        <h4>Made by Iman-Ella-Rotimi</h4>
+    </footer>
+</head>
+<body>
+    
+</body>
+</html>

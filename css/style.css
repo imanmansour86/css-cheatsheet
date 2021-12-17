@@ -1,0 +1,46 @@
+*{
+    background: linear-gradient(#cab6b6, #cccff0);
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 30px;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+  
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    flex: 0 0 30%;
+}
+
+footer{
+    text-align: center;
+}
+
+header {
+    text-align: center;
+}
+
+@media screen and (min-width: 992px) {
+    main {
+      flex-direction: row;
+    }
+
+
+        
+@media screen and (max-width: 768px) {
+            section,
+            main {
+              flex-direction: column;
+            }
+        
