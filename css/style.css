@@ -44,6 +44,12 @@ pre {
 
 h2 {
   border: 5px solid gray;
+  transition: width 2s;
+}
+
+h2:hover {
+  width: 200px;
+  color: red;
 }
 
 section {
