@@ -50,9 +50,9 @@ pre {
   padding: 5px;
   font-size: xx-large;
   font-weight: bolder;
-  /* top: -40px;
+  top: -40px;
   left: 10p;
-  position: relative; */
+  position: relative;
 }
 
 .section-header:hover {
